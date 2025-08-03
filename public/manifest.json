@@ -2,12 +2,43 @@
   "theme_color": "#3F51B5",
   "background_color": "#EEEEEE",
   "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "window-controls-overlay": {
+    "type": "overlay"
+  },
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
   "name": "Zikr Counter",
   "short_name": "Zikr",
   "description": "An elegant app to help you keep track of your zikr with targets and progress.",
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "text/csv": [".csv"]
+      },
+      "icons": [
+        {
+          "src": "/android/android-launchericon-192-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "launch_type": "single-client"
+    }
+  ],
+  "handle_links": {
+    "urls": [
+      {
+        "pattern": "https://zikrtracker.netlify.app/*",
+        "exclude": false
+      }
+    ]
+  },
   "shortcuts": [
     {
       "name": "Quick Count",
@@ -62,13 +93,25 @@
       "src": "/android/android-launchericon-512-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/android/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/android/android-launchericon-192-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/android/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/android/android-launchericon-144-144.png",
