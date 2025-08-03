@@ -1,0 +1,48 @@
+import type { Translations } from './types';
+
+export const translations: Translations = {
+  en: {
+    title: 'Zikr Tracker',
+    footer: 'Designed with serenity and purpose.',
+    target: 'Target',
+    reset: 'Reset',
+    virtueAndReference: 'Virtue & Reference',
+    switchToAuto: 'Switch to Auto Counter',
+    switchToManual: 'Switch to Manual Entry',
+    manualEntry: 'Enter Count',
+    translation: 'Translation',
+  },
+  ar: {
+    title: 'متتبع الذكر',
+    footer: 'صُمم بسكينة وهدف.',
+    target: 'الهدف',
+    reset: 'إعادة تعيين',
+    virtueAndReference: 'الفضيلة والمرجع',
+    switchToAuto: 'التبديل إلى العداد التلقائي',
+    switchToManual: 'التبديل إلى الإدخال اليدوي',
+    manualEntry: 'أدخل العدد',
+    translation: 'ترجمة',
+  },
+  ur: {
+    title: 'ذکر ٹریکر',
+    footer: 'سکون اور مقصد کے ساتھ ڈیزائن کیا گیا ہے۔',
+    target: 'ہدف',
+    reset: 'ری سیٹ',
+    virtueAndReference: 'فضیلت اور حوالہ',
+    switchToAuto: 'آٹو کاؤنٹر پر جائیں',
+    switchToManual: 'دستی اندراج پر جائیں',
+    manualEntry: 'شمار درج کریں',
+    translation: 'ترجمہ',
+  },
+  hi: {
+    title: 'ज़िक्र ट्रैकर',
+    footer: 'शांति और उद्देश्य के साथ डिज़ाइन किया गया।',
+    target: 'लक्ष्य',
+    reset: 'रीसेट',
+    virtueAndReference: 'गुण और संदर्भ',
+    switchToAuto: 'ऑटो काउंटर पर स्विच करें',
+    switchToManual: 'मैनुअल एंट्री पर स्विच करें',
+    manualEntry: 'गणना दर्ज करें',
+    translation: 'अनुवाद',
+  },
+};
