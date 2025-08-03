@@ -4,7 +4,6 @@ const withPWA = require('next-pwa')({
   disable: process.env.NODE_ENV === 'development',
   register: true,
   skipWaiting: true,
-  immediate: true,
   buildExcludes: [/chunks\/.*$/],
   reloadOnOnline: true,
   sw: '/sw.js',
@@ -18,6 +17,7 @@ const withPWA = require('next-pwa')({
       handler: 'NetworkFirst',
       options: {
         cacheName: 'offline-cache',
+        networkTimeoutSeconds: 10,
         expiration: {
           maxEntries: 200,
           maxAgeSeconds: 24 * 60 * 60
