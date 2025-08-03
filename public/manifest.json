@@ -45,21 +45,21 @@
       "short_name": "Count",
       "description": "Start counting zikr quickly",
       "url": "/?mode=quick",
-      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/android/android-launchericon-192-192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Reset All",
       "short_name": "Reset",
       "description": "Reset all zikr counts",
       "url": "/?action=reset",
-      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/android/android-launchericon-192-192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Daily Targets",
       "short_name": "Targets",
       "description": "View and set daily targets",
       "url": "/?view=targets",
-      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/android/android-launchericon-192-192.png", "sizes": "192x192", "type": "image/png" }]
     }
   ],
   "screenshots": [
@@ -67,24 +67,32 @@
       "src": "/screenshot1.png",
       "type": "image/png",
       "form_factor": "narrow",
+      "sizes": "1080x2340",
+      "platform": "android",
       "label": "Zikr Counter Screenshot 1"
     },
     {
       "src": "/screenshot2.png",
       "type": "image/png",
       "form_factor": "narrow",
+      "sizes": "1080x2340",
+      "platform": "android",
       "label": "Zikr Counter Screenshot 2"
     },
     {
       "src": "/screenshot3.png",
       "type": "image/png",
       "form_factor": "narrow",
+      "sizes": "1080x2340",
+      "platform": "android",
       "label": "Zikr Counter Screenshot 3"
     },
     {
       "src": "/screenshot4.png",
       "type": "image/png",
       "form_factor": "narrow",
+      "sizes": "1080x2340",
+      "platform": "android",
       "label": "Zikr Counter Screenshot 4"
     }
   ],
