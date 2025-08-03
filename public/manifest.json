@@ -8,6 +8,29 @@
   "name": "Zikr Counter",
   "short_name": "Zikr",
   "description": "An elegant app to help you keep track of your zikr with targets and progress.",
+  "shortcuts": [
+    {
+      "name": "Quick Count",
+      "short_name": "Count",
+      "description": "Start counting zikr quickly",
+      "url": "/?mode=quick",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Reset All",
+      "short_name": "Reset",
+      "description": "Reset all zikr counts",
+      "url": "/?action=reset",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Daily Targets",
+      "short_name": "Targets",
+      "description": "View and set daily targets",
+      "url": "/?view=targets",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
   "screenshots": [
     {
       "src": "/screenshot1.png",
